@@ -1,0 +1,31 @@
+.card {
+  background: white;
+  border-radius: 18px;
+  padding: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+.card h3 {
+  color: #8b5e3c;
+}
+
+.card p {
+  margin: 0;
+  color: #555;
+}
+
+.card a {
+  margin-top: 10px;
+  color: #a66e4a;
+  font-weight: bold;
+}

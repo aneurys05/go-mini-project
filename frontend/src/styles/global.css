@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fff8f0;
+  color: #333;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 10px;
+  background: #8b5e3c;
+  color: white;
+  transition: 0.2s;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  margin: 8px 0;
+  width: 100%;
+}

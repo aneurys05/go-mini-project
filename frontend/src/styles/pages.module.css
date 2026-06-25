@@ -1,0 +1,23 @@
+.container {
+  padding: 30px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.cardBox {
+  background: white;
+  padding: 20px;
+  border-radius: 18px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+}
+
+.title {
+  color: #8b5e3c;
+  margin-bottom: 20px;
+}
